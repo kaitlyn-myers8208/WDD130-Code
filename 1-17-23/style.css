@@ -1,0 +1,21 @@
+/*p {
+    color: salmon;
+}
+h1 {
+    color: teal;
+} */
+
+.salmonText {
+    color: salmon;
+}
+
+.tealText {
+    color: teal;
+}
+
+.bigText {
+    font-size: 75px;
+}
+#awesomeId {
+    background-color: gray;
+}
