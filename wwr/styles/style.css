@@ -227,11 +227,14 @@ h4 {
 .rivers-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 400px);
 }
 
 .rivers-card-img {
     border: 10px solid black;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
+    height: 100%;
 }
 
 .idaho-card .utah-card .arizona-card {
@@ -243,45 +246,60 @@ h4 {
 
 .idaho-card {
     grid-row: 1/2;
-    grid-column: 2/4;
+    grid-column: 2/5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .idaho-msg {
     text-align: center;
     margin-bottom: 200px;
+    margin-right: 150px;
     grid-row: 1/2;
     grid-column: 6/11;
 }
 
 .utah-card {
-    grid-row: 2/3;
-    grid-column: 2/4;
+    grid-row: 3/4;
+    grid-column: 2/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .utah-msg {
     text-align: center;
-    margin-top: 200px;
     margin-bottom: 200px;
-    grid-row: 2/3;
+    margin-right: 150px;
+    grid-row-start: 3;
     grid-column: 6/11;
 }
 
 .arizona-card {
-    grid-row: 3/4;
-    grid-column: 2/4;
+    grid-row: 5/6;
+    grid-column: 2/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .arizona-msg {
     text-align: center;
-    margin-top: 200px;
     margin-bottom: 200px;
-    grid-row: 3/4;
+    margin-right: 150px;
+    grid-row-start: 5;
     grid-column: 6/11;
 }
 
 #rivers-hero-img {
     width: 100%;
-    height: 75%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
 }
 
 
