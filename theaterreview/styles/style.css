@@ -67,9 +67,10 @@ main {
     display: inline-block;
 }
 
-/* .home-img {
-    grid-row: 1/2;
-} */
+.home-img {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 
 /* .eccles-img {
     grid-column: 1/3;
