@@ -72,30 +72,6 @@ main {
     grid-template-columns: repeat(10, 1fr);
 }
 
-/* .eccles-img {
-    grid-column: 1/3;
-    height: 300px;
-    width: 300px;
-    margin: 100px;
-    border: 10px solid black;
-}
-
-.festival-img {
-    grid-column: 3/6;
-    height: 300px;
-    width: 400px;
-    margin: 100px;
-    border: 10px solid black;
-}
-
-.sister-img {
-    grid-column: 6/7;
-    height: 300px;
-    width: 300px;
-    margin: 100px;
-    border: 10px solid black;
-} */
-
 .eccles-img {
     grid-column: 2/4;
     width: 100%;
@@ -156,6 +132,38 @@ footer .social img {
     padding-top: 15px;
 }
 
+
+/* Play Synopses Page */
+
+
+
+
+
+/* Web Component */
+section a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+  
+section a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+section .previous {
+    background-color: #0081A7;
+    color: white;
+}
+  
+section .next {
+    background-color: #0081A7;
+    color: white;
+}
+  
+section .round {
+    border-radius: 50%;
+}
 /*
 
 #hero-msg {
