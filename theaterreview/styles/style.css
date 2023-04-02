@@ -244,6 +244,107 @@ footer .social img {
     grid-row: 6;
 }
 
+/* My Reviews Page */
+
+main .review-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8,1fr);
+    
+}
+
+.review-wicked-card h1 {
+    grid-column: 4/6;
+    grid-row: 1;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+.review-wicked-card img {
+    grid-column: 1/3;
+    grid-row: 2;
+    width: 100%;
+    border: 10px solid black;
+}
+.review-wicked-card p {
+    grid-column: 4/9;
+    grid-row: 2;
+}
+
+.review-hansen-card h1 {
+    grid-column: 4/6;
+    grid-row: 2;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+.review-hansen-card img {
+    grid-column: 1/3;
+    grid-row: 3;
+    width: 100%;
+    border: 10px solid black;
+}
+.review-hansen-card p {
+    grid-column: 4/9;
+    grid-row: 3;
+}
+
+.review-hadestown-card h1 {
+    grid-column: 4/6;
+    grid-row: 3;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+.review-hadestown-card img {
+    grid-column: 1/3;
+    grid-row: 3;
+    width: 100%;
+    border: 10px solid black;
+}
+.review-hadestown-card p {
+    grid-column: 4/9;
+    grid-row: 3;
+}
+
+.review-band-visit-card h1 {
+    grid-column: 4/6;
+    grid-row: 3;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+.review-band-visit-card img {
+    grid-column: 1/3;
+    grid-row: 3;
+    width: 100%;
+    border: 10px solid black;
+}
+.review-band-visit-card p {
+    grid-column: 4/9;
+    grid-row: 3;
+}
+
+/* .review-hansen-card {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.review-hansen-card h1 {
+    grid-column: 4/6;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+.review-hansen-card img {
+    grid-column: 1/3;
+    grid-row: 4;
+    border: 10px solid black;
+}
+.review-hansen-card p {
+    grid-column: 4/9;
+    grid-row: 4;
+} */
+
 
 /* Web Component */
 section a {
